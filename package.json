@@ -1,0 +1,26 @@
+{
+  "name": "interscetion",
+  "version": "1.0.0",
+  "description": "This application aims to streamline the registration and evaluation processes through three distinct dashboards: for students, judges, and administrators.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "mocha --timeout 10000"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fast-csv": "^5.0.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
